@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Information Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="info-box">
+    <h1>Gym Workout & Diet Plans</h1>
+
+    <div class="tab-buttons">
+      <button class="tab-btn active" onclick="showTab('workout', event)">Workout Plan</button>
+      <button class="tab-btn" onclick="showTab('diet', event)">Diet Plans</button>
+    </div>
+
+    <!-- WORKOUT TAB WITH ACCORDION -->
+<div id="workout" class="tab-content active">
+    <h2>Workout Schedule</h2>
+    <div id="workoutAccordion"></div>
+</div>
+
+<!-- DIET TAB WITH ACCORDION -->
+<div id="diet" class="tab-content">
+    <h2>Diet Plans</h2>
+    <div id="dietAccordion"></div>
+</div>
+
+    
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <!-- Load JS file correctly -->
+  <script src="info.js"></script>
+
+
+</body>
+</html>

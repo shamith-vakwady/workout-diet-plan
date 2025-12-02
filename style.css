@@ -1,0 +1,208 @@
+/* ===== GLOBAL PAGE BACKGROUND ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("images/bg.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ===== LOGIN PAGE BOX ===== */
+.login-box {
+  background: rgba(255, 255, 255, 0.15);   /* Transparent */
+  backdrop-filter: blur(10px);             /* Glass effect */
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.3);
+  margin-top: 120px;
+}
+
+/* ===== INFO PAGE TRANSPARENT GLASS BOX ===== */
+.info-box {
+  background: rgba(255, 255, 255, 0.12);     /* Soft transparent */
+  backdrop-filter: blur(12px);               /* Strong glass blur */
+  -webkit-backdrop-filter: blur(12px);
+  padding: 35px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  box-shadow: 0 0 30px rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.28);
+}
+
+
+/* ===== LOGIN PAGE INPUTS + BUTTONS ===== */
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1f669e;
+}
+
+
+/* ===== TAB BUTTONS (Workout, Diet) ===== */
+.tab-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #1f5fab;
+}
+
+
+/* ===== TAB CONTENT AREA ===== */
+.tab-content {
+  display: none;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+/* ===== WORKOUT & DIET CONTENT BOXES ===== */
+#workoutContent,
+#dietContent {
+  background: rgba(255, 255, 255, 0.8);  /* Soft white so background shows */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+/* ===== HEADINGS ===== */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+/* ===== ACCORDION STYLE ===== */
+.accordion-item {
+  background: rgba(255, 255, 255, 0.85);
+  margin-bottom: 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.accordion-header {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #3498db;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-header:hover {
+  background: #1f6cb0;
+}
+
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+.accordion-content.show {
+  display: block;
+}
+
+.arrow {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+/* ===== MAKE HEADINGS VISIBLE ON TRANSPARENT BACKGROUND ===== */
+
+/* ===== MAKE HEADINGS VISIBLE ON TRANSPARENT BACKGROUND ===== */
+
+/* Main title */
+.info-box h1 {
+  color: #ffffff;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+/* Section titles like Workout Schedule / Diet Plans */
+.info-box h2 {
+  color: #f5f5f5;
+  font-weight: 700;
+  text-shadow: 0 0 8px rgba(0,0,0,0.7);
+  margin-top: 20px;
+}
+
+/* Accordion header text */
+.accordion-header {
+  color: white !important;
+  font-weight: 700;
+  text-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
