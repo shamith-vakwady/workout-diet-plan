@@ -1,11 +1,11 @@
-📘 Gym Workout & Diet Plan Website
+## 📘 Gym Workout & Diet Plan Website
 
   A simple and visually appealing fitness web application that provides users with structured workout plans, diet schedules, and an interactive login system.
   This project demonstrates clean UI design, organized data loading through JSON, and smooth page navigation.
 
 
 
-✨ Features
+## ✨ Features
 
 🔐 Login System (ID + Password validation)
 
@@ -24,7 +24,7 @@
 
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5 → Structure
 
@@ -35,8 +35,9 @@ JavaScript → Login logic, data rendering, button functionality
 JSON → Diet and workout data storage
 
 
+## 📁 Project Structure
 
-
+```txt
 mywebsite/
 │
 ├── images/               # Website images & screenshots
@@ -46,11 +47,11 @@ mywebsite/
 ├── script.js             # Login logic & page scripts
 ├── info.js               # JSON data reader & DOM rendering
 └── style.css             # Complete site styling
+```
 
 
 
-
-📦 How It Works
+## 📦 How It Works
 1. Login System
 
 User enters ID and Password
@@ -76,7 +77,7 @@ Mobile friendly layout
 
 
 
-🚀 Setup & Run Locally
+## 🚀 Setup & Run Locally
 
 1️⃣ Clone the Repo
 git clone https://github.com/shamith-vakwady/workout-diet-plan.git
@@ -88,7 +89,7 @@ Simply open index.html in any browser.
 
 ⚠️ No backend/server needed — it's a pure HTML/CSS/JS project.
 
-📝 Future Enhancements
+## 📝 Future Enhancements
 
 🔄 Add real user authentication
 
@@ -101,7 +102,7 @@ Simply open index.html in any browser.
 
 
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Shamith Vakwady
 📧 Email: shamithvakwady09@gmail.com
