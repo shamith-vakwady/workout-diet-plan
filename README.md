@@ -21,11 +21,24 @@
 
 🚪 Logout Button (redirects to login page)
 
-## 🖼️ Screenshots
+## 🖼️ Output
 
 ### 🔐 Login Page
 ![Login Page](<Screenshot 2025-12-02 161417.png>)
 
+
+
+### 🔐 Login Page
+![Login Page](<Screenshot 2025-12-02 172030.png>)
+
+### 🏋️ Dashboard Page
+![Dashboard](<Screenshot 2025-12-02 172056.png>)
+
+### 💪 Workout Plan Page
+![Workout Page](<Screenshot 2025-12-02 172112.png>)
+
+### 🍽️ Diet Plan Page
+![Diet Page](<Screenshot 2025-12-02 172129.png>)
 
 
 
